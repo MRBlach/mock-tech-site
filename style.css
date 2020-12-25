@@ -1,0 +1,476 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top{
+  position: relative;
+  background-color: white;
+  margin-bottom: 10px;
+  }
+  .logo{
+    display: inline;
+    background-color: white;
+  }
+      .logobutton{
+        border: none;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px;
+        background-color: black;
+        color: white;
+        font-family: sans-serif;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+
+  .sea{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    display: inline;
+    background-color: white;
+  }
+
+        input[type=text]{
+          border: 2px solid #ccc;
+          border-radius: 2px;
+          font-size: 16px;
+          background-color: white;
+          transition: width0.4s ease-in-out;
+          float: right;
+        }
+        input[type=text]:focus{
+          width: 100%;
+        }
+
+
+
+
+  .menu{
+    position: absolute;
+    top: 40%;
+    right: 2%;
+    background-color: white;
+        }
+        .ul0{
+          list-style-type: none;
+        }
+
+        .li0{
+          display: inline;
+        }
+
+
+        .button1{
+          border: none;
+          padding: 5px;
+          font-size: 10px;
+          font-weight: bold;
+          text-transform: uppercase;
+          color: black;
+          background-color:white;
+        }
+        .button1:hover{
+          color: #95389e;
+        }
+
+
+        .button2{
+          position: absolute;
+          top: 100%;
+          right: 15%;
+          border: none;
+          padding: 5px 15px;
+          font-size: 16px;
+          font-weight: bold;
+          text-transform: uppercase;
+          color: white;
+          background-color: #95389e;
+        }
+        .button2:hover{
+          background-color: #512b58;
+        }
+
+
+
+
+.banner1{
+  text-align: center;
+  background-color: #a0c334;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+
+    h2{
+      font-size: 20px;
+      font-weight: bold;
+      font-family: sans-serif;
+      text-align: center;
+    }
+    .button3{
+      border: none;
+      background-color:#a0c334;
+      color: #95389e;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .button3:hover{
+      color: #512b58;
+    }
+
+
+.banner2{
+  background-color: #95389e;
+  padding: 20px;
+}
+    .button4{
+      font-size: 20px;
+      font-family: impact;
+      font-weight: bold;
+      border: none;
+      color: white;
+      background-color: #95389e;
+    }
+    .button4:hover{
+      text-decoration: underline;
+      color: white;
+    }
+
+
+
+.banner3{
+  background-image: linear-gradient(rgba(30,0,0,0.5),rgba(25,25,25,0.5)), url(images/tech.jpeg);
+  background-size: contain;
+  text-align: center;
+  }
+    .bold{
+      padding-top: 15%;
+      padding-bottom: 25%;
+      font-size: 35px;
+      text-align: center;
+      font-weight: bold;
+      color: white;
+      text-transform: uppercase;
+          }
+    .button5{
+      border-style: solid;
+      border-color: white;
+      color: white;
+      background-color: transparent;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 20px 40px;
+          }
+    .button5:hover{
+      color: black;
+      background-color: white;
+    }
+
+
+
+.paragraph1{
+  margin: 10%;
+  font-size: 150%;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+.paragraph2{
+  margin: 10%;
+  font-size: 150%;
+  line-height: 1.5;
+}
+
+
+
+.link{
+  margin: 10%;
+}
+    .button6{
+      border: none;
+      color: #95389e;
+      background-color: white;
+      font-size: 20px;
+
+  font-weight: bolder;
+    }
+    .button6:hover{
+      color: #512b58;
+      background-color: white;
+    }
+    img{
+      display: block;
+    }
+    table{
+      text-align: center;
+      line-height: 2.0;
+      padding: 0;
+      display: inline;
+    }
+.solid{
+  border-style: solid;
+  border-color: #f4f4f4;
+  padding: 20px;
+}
+.tech2 {
+  margin: 10%;
+}
+    .number2{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .item2{
+      font-size: 16px;
+    }
+
+    .number3{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .item3{
+      font-size: 16px;
+    }
+
+    .number4{
+      font-size: 20px;
+      font-weight: bold;
+          }
+    .item4{
+      font-size: 16px;
+        }
+
+
+
+.quote{
+  text-align: center;
+  line-height: 1.4;
+  font-weight: bold;
+  font-size: 25px;
+  color: #588da8;
+  margin: 10%;
+
+}
+
+.cite{
+  font-size: 20px;
+  font-weight: bold;
+  color: #588da8;
+  text-transform: uppercase;
+}
+
+
+.banner4{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(30,0,0,0.5),rgba(25,25,25,0.5)), url(images/tech5.jpeg);
+  text-align: center;
+  }
+
+    .bold2{
+      padding-top: 5%;
+      font-size: 35px;
+      font-weight: bold;
+      text-align: center;
+      color: white;
+          }
+    .bold3{
+      font-size: 25px;
+      text-align: center;
+      color: white;
+      margin: 5%;
+    }
+    .button5{
+      margin-bottom: 5%;
+      border-style: solid;
+      border-color: white;
+      color: white;
+      background-color: transparent;
+      font-weight: bold;
+      text-transform: uppercase;
+          }
+    .button5:hover{
+      color: #588da8;
+      background-color: white;
+    }
+ .banner5{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(30,0,0,0.5),rgba(25,25,25,0.5)), url(images/tech6.jpeg);
+    text-align: center;
+    }
+  
+        .button5{
+          border-style: solid;
+          border-color: white;
+          color: white;
+          background-color: transparent;
+          font-weight: bold;
+          text-transform: uppercase;
+          padding: 20px 40px;
+              }
+        .button5:hover{
+          color: #588da8;
+          background-color: white;
+        }
+.banner6{
+ background-color: #588da8;
+ text-align: center;
+   }
+       .button5{
+           border-style: solid;
+           border-color: white;
+           color: white;
+           background-color: transparent;
+           font-weight: bold;
+           text-transform: uppercase;
+           padding: 20px 40px;
+               }
+       .button5:hover{
+           color: #588da8;
+           background-color: white;
+               }
+.banner7{
+  background-color: white;
+  margin: 1%;
+}
+      .logo1{
+        margin-left: 3%;
+      }
+
+
+hr{
+  border-top: #f4f4f4;
+}
+
+a:link{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: #95389e;
+  background-color: white;
+}
+
+li{
+list-style-type: none;
+}
+.footer {
+  position: relative;
+}
+.clicks{
+padding-left: 8%;
+text-align: left;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.addy{
+  position: absolute;
+  top: 95%;
+  left: 25%;
+  text-align: left;
+
+}
+
+.Thisday{
+  text-align: left;
+  line-height: 2.0;
+}
+.copy {
+  position: relative;
+}
+.icons{
+  position: absolute;
+  top: 145%;
+  left: 2%;
+}
+.fab{
+  border-style: solid;
+  border-color: #f4f4f4;
+  padding: 10px;
+}
+
+.copyright{
+  position: absolute;
+  top: 150%;
+  right: 2%;
+}
+
+/* media querie for screen size 650px or larger */
+@media (min-width: 650px) {
+  .top {
+    height: 150px;
+  }
+  .logo {
+    margin-left: 10px;
+  }
+  .logobutton {
+    margin-right: 10px;
+    font-size: 50px;
+  }
+  .sea {
+    margin-right: 10px;
+  }
+  input[type=text]{
+    font-size: 25px;
+    background-color: white;
+  }
+  .menu {
+    top: 50%;
+    margin-right: 10px;
+  }
+  .button1 {
+    font-size: 20px;
+  }
+  .button2 {
+    position: unset;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+  }
+  .banner1 {
+    padding: 10px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .tech2 {
+    text-align: center;
+  }
+  .banner7 {
+    text-align: center;
+  }
+  .logo {
+    margin: 1%;
+  }
+  .footer {
+    text-align: center;
+  }
+  .clicks {
+    padding: 2%;
+  }
+  .addy {
+    position: unset;
+    padding: 2%;
+  }
+  .Thisday {
+    padding: 2%;
+  }
+  .copy {
+    position: unset;
+  }
+  .icons {
+    position: unset;
+    margin-bottom: 2%;
+  }
+  .copyright {
+    position: unset;
+    margin-bottom: 2%;
+  }
+}
